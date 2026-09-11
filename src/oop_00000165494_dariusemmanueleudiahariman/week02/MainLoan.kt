@@ -28,5 +28,5 @@ fun main() {
     println("Judul Buku: ${loan.bookTitle}")
     println("Peminjam: ${loan.borrower}")
     println("Lama Pinjam: ${loan.loanDuration}")
-    println("Total Denda: Rp. ${loan.calulateFine()}")
+    println("Total Denda: Rp. ${loan.calculateFine()}")
 }
