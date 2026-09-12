@@ -8,4 +8,13 @@ fun main() {
     e.increasePerformance()
 
     println("Pajak yang harus dibayar: ${e.tax}")
+
+    //Task 1
+    println("\nTask 1 (Weapon Testing)")
+    val w = Weapon("Wooden Stick")
+    w.damage = -50
+    println("Damage: ${w.damage}")
+    w.damage = 9999
+    println("Damage: ${w.damage}")
+    println("Tier: ${w.tier}")
 }
