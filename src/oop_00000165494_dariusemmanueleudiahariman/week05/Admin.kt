@@ -1,6 +1,6 @@
 package oop_00000165494_dariusemmanueleudiahariman.week05
 
-class Admin(name: String) : Pengawai(name) {
+class Admin(name: String) : Pegawai(name) {
     override fun bekerja() {
         println("[$name] sedang duduk di depan komputer melayani administrasi.")
     }
