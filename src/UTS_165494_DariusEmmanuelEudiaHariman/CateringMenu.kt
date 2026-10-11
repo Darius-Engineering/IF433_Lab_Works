@@ -22,6 +22,7 @@ abstract class CateringMenu(val name: String, initialMenuCode: String, initialPr
         }
 
     init {
+        this.menuCode = initialMenuCode
         this.basePrice = initialPrice
     }
 }

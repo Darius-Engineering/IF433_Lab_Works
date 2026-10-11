@@ -7,7 +7,7 @@ fun main() {
     println("=== UMN CATERING MANAGER SYSTEM ===")
     println("[Database Setup] Adding Nasi Goreng Spesial...")
     val menu1 = FoodMenu("Nasi Goreng Spesial", "nsg01", 0.0)
-    menu1.basePrice = -15000.0 // Triggers error message
+    menu1.basePrice = -15000.0
     menu1.basePrice = 25000.0
     println("[Database Setup] Price updated to Rp 25.000")
 
