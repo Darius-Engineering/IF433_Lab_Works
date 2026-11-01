@@ -38,3 +38,5 @@ fun main() {
     val safeString = someObject as? String?: "Unknown String"
     println("Hasil cast + fallback: $safeString")
 }
+
+//Checkpoint 9: test has been conducted and it ran fine and smoothly without any problems.
