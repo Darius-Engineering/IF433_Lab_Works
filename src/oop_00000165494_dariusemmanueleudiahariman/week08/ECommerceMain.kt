@@ -27,3 +27,5 @@ fun main () {
         }
     }
 }
+
+//Main has been runned, output is as expected. Checkpoint 20 DONE
